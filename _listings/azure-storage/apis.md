@@ -23,7 +23,7 @@ apis:
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storsimple-managers-managername-configuredevice-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storsimple-managers-managername-devices-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
