@@ -16,8 +16,8 @@ tags:
 - Internet of Things
 - Imports
 - Devices
-created: "2018-03-10"
-modified: "2018-03-10"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/particle/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -29,7 +29,7 @@ apis:
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/particle/devices-events-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/particle/devices-get.md
 x-common:
 - type: x-base-url
   url: api.particle.io
