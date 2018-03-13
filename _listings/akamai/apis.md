@@ -33,7 +33,7 @@ apis:
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/akamai/galaxy-v1-devices-deviceid-op-deactivate-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/akamai/galaxy-v1-devices-deviceid-op-reactivate-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
