@@ -29,7 +29,7 @@ apis:
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/particle/devices-deviceid-name-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/particle/devices-deviceid-name-post.md
 x-common:
 - type: x-base-url
   url: api.particle.io
