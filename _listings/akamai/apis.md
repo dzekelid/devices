@@ -20,8 +20,8 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/akamai/galaxy-v1-devices-deviceid-op-reactivate-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/akamai/galaxy-v1-devices-deviceid-debug-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
