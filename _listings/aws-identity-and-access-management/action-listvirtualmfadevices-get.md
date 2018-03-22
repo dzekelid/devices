@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListVirtualMFADevices&k=1:
+  /?Action=ListVirtualMFADevices:
     get:
       summary: ' List Virtual M F A Devices '
       description: Lists the virtual MFA devices defined in the AWS account by assignment
