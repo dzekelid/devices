@@ -10,9 +10,9 @@ x-alexaRank: ""
 tags:
 - Stack Network
 - Amazon Web Services
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/aws-device-farm/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Device Farm API
@@ -25,7 +25,7 @@ apis:
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/aws-device-farm/action-listdevices-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/action-getdevice-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/blogs/mobile/tag/aws-device-farm/
