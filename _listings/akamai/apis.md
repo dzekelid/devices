@@ -33,7 +33,7 @@ apis:
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/akamai/galaxy-v1-devices-deviceid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/akamai/galaxy-v1-devices-deviceid-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
