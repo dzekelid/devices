@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EnableMFADevice&k=1:
+  /?Action=EnableMFADevice:
     get:
       summary: ' Enable M F A Device '
       description: Enables the specified MFA device and associates it with the specified
