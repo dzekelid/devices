@@ -16,9 +16,9 @@ tags:
 - Microsoft
 - Internet of Things
 - Devices
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/azure-iot-hub/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-iot-hub/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure IoT Hub API
@@ -29,7 +29,7 @@ apis:
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/devices/master/_listings/azure-iot-hub/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devices-iothubs-resourcename-importdevices-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-iot-hub/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devices-iothubs-resourcename-exportdevices-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/iot-hub/
