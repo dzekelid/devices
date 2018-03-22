@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ResyncMFADevice&k=1:
+  /?Action=ResyncMFADevice:
     get:
       summary: ' Resync M F A Device '
       description: |-
