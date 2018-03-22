@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListMFADevices&k=1:
+  /?Action=ListMFADevices:
     get:
       summary: ' List M F A Devices '
       description: Lists the MFA devices for an IAM user
