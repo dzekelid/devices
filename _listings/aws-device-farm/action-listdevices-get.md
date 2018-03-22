@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListDevices&k=1:
+  /?Action=ListDevices:
     get:
       summary: ' List Devices '
       description: Gets information about unique device types
