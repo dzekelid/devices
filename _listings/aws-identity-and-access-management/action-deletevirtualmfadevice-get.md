@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteVirtualMFADevice&k=1:
+  /?Action=DeleteVirtualMFADevice:
     get:
       summary: ' Delete Virtual M F A Device '
       description: Deletes a virtual MFA device
