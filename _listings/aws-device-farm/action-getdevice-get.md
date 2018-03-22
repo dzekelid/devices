@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetDevice&k=1:
+  /?Action=GetDevice:
     get:
       summary: ' Get Device '
       description: Gets information about a unique device type
