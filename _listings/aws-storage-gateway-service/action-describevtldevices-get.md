@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVTLDevices&k=1:
+  /?Action=DescribeVTLDevices:
     get:
       summary: ' Describe VTL Devices '
       description: |-
