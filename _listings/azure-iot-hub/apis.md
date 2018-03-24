@@ -29,7 +29,7 @@ apis:
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-iot-hub/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devices-iothubs-resourcename-exportdevices-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-iot-hub/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devices-iothubs-resourcename-importdevices-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/iot-hub/
