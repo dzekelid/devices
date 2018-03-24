@@ -13,17 +13,7 @@ created: "2018-03-23"
 modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-storage/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: Azure Storage API
-  description: Azure Storage offers non-relational data storage including Blob Storage,
-    Table Storage, Queue Storage, and Files
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png
-  humanURL: ""
-  baseURL: ://management.azure.com//
-  tags: Devices
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storsimple-managers-managername-devices-devicename-patch.md
+apis: []
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
