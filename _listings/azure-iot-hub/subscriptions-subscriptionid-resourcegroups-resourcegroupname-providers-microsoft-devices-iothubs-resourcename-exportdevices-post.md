@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: iotHubClient
-  description: Use this API to manage the IoT hubs in your subscription.
+  title: Azure IoT Hub API Iot Hub Resource Export Devices
+  description: 'Exports all the device identities in the IoT hub identity registry
+    to an Azure Storage blob container. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-identity-registry#import-and-export-device-identities.'
   version: 1.0.0
 host: management.azure.com
 basePath: /
