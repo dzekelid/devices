@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Reactivate a Device
+  description: Reactivate a Device
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Reactivate a Device
       operationId: galaxyv1devicesdeviceidopreactivate
       parameters:
-      - in: String
+      - in: query
         name: deviceId
         description: Identifies the device, maximum 50 characters
         type: string
