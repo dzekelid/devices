@@ -35,7 +35,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-storage-gateway-service/action-describevtldevices-get.md
+- name: AWS Storage Gateway Service API Describe VTL Devices
+  description: |-
+    Returns a description of virtual tape library (VTL) devices for the specified
+             gateway.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: http:://{host}//
+  tags: Devices
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-storage-gateway-service/action-describevtldevices-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
+- type: x-faq
+  url: https://aws.amazon.com/storagegateway/faqs/
+- type: x-pricing
+  url: https://aws.amazon.com/storagegateway/pricing/
+- type: x-website
+  url: https://aws.amazon.com/storagegateway/
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
 - type: x-faq
