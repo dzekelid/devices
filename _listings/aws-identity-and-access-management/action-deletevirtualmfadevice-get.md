@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Delete Virtual M F A Device
   version: 1.0.0
+  description: Deletes a virtual MFA device.
 schemes:
 - http
 produces:
