@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Devices Get
   version: 1.0.0
+  description: Returns the properties of the specified device.
 host: management.azure.com
 basePath: /
 schemes:
