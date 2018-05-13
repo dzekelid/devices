@@ -1,11 +1,20 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Get Devices Stats
+  description: "**This endpoint allows you to retrieve your email statistics segmented
+    by the device type.**\n\n**We only store up to 7 days of email activity in our
+    database.** By default, 500 items will be returned per request via the Advanced
+    Stats API endpoints.\n\n## Available Device Types\n| **Device** | **Description**
+    | **Example** |\n|---|---|---|\n| Desktop | Email software on desktop computer.
+    | I.E., Outlook, Sparrow, or Apple Mail. |\n| Webmail |\tA web-based email client.
+    | I.E., Yahoo, Google, AOL, or Outlook.com. |\n| Phone | A smart phone. | iPhone,
+    Android, Blackberry, etc.\n| Tablet | A tablet computer. | iPad, android based
+    tablet, etc. |\n| Other | An unrecognized device. |\n\nAdvanced Stats provide
+    a more in-depth view of your email statistics and the actions taken by your recipients.
+    You can segment these statistics by geographic location, device type, client type,
+    browser, and mailbox provider. For more information about statistics, please see
+    our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/index.html)."
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
@@ -751,16 +760,16 @@ definitions:
         type: post
 x-collection-name: SendGrid
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: ~
+  polling_size_download_average: ~
+  streaming_total_time_average: ~
+  streaming_size_download_average: ~
+  change_yes: ~
+  change_no: ~
+  time_percentage: ~
+  size_percentage: ~
+  change_percentage: "200"
+  last_run: ~
+  days_run: ~
+  minute_run: ~
 ---
