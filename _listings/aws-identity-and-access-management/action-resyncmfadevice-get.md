@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Resync M F A Device
   version: 1.0.0
+  description: |-
+    Synchronizes the specified MFA device with its IAM resource object on the AWS
+          servers.
 schemes:
 - http
 produces:
