@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Describe VTL Devices
   version: 1.0.0
+  description: |-
+    Returns a description of virtual tape library (VTL) devices for the specified
+             gateway.
 schemes:
 - http
 produces:
