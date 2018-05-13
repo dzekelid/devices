@@ -30,18 +30,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-events-post.md
-- name: Particle Add Devices Device Name
-  description: Call a function exposed by the device, with arguments passed in the
-    request body.
+- name: Particle Get Devices Events
+  description: Open a stream of Server Sent Events for all public events and private
+    events for your devices.
   image: ""
   humanURL: https://www.particle.io/
   baseURL: https://api.particle.io/v1/
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-deviceid-name-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-events-eventprefix-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-deviceid-name-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-events-eventprefix-get-postman.md
 x-common:
 - type: x-base-url
   url: api.particle.io
