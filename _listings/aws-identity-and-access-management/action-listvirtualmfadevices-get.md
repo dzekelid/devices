@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API List Virtual M F A Devices
   version: 1.0.0
+  description: Lists the virtual MFA devices defined in the AWS account by assignment
+    status.
 schemes:
 - http
 produces:
