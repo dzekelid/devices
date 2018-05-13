@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Get a Device
-  description: Get a Device
+- name: Akamai API Modify a Device
+  description: Modify a Device
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/akamai/galaxy-v1-devices-deviceid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/akamai/galaxy-v1-devices-deviceid-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
