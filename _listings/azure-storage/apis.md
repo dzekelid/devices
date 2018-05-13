@@ -13,8 +13,27 @@ created: "2018-03-23"
 modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-storage/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Azure Storage API Devices Configure
+  description: Complete minimal setup before using the device.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png
+  humanURL: https://azure.microsoft.com/en-us/services/storage/
+  baseURL: http:://management.azure.com//
+  tags: Devices
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storsimple-managers-managername-configuredevice-post.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/storage/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/storage/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/storage/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/storage/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
 - type: x-pricing
