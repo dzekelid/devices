@@ -26,15 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/action-listdevices-get.md
-- name: AWS Device Farm API Get Device
-  description: Gets information about a unique device type.
+- name: AWS Device Farm API List Devices
+  description: Gets information about unique device types.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
   humanURL: https://aws.amazon.com/device-farm/
   baseURL: http:://{host}//
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/action-getdevice-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/action-listdevices-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/blogs/mobile/tag/aws-device-farm/
