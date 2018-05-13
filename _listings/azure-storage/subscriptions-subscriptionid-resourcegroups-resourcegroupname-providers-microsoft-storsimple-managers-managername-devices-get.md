@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Devices List By Manager
   version: 1.0.0
+  description: Returns the list of devices for the specified manager.
 host: management.azure.com
 basePath: /
 schemes:
