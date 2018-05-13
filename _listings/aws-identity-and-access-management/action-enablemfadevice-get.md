@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Enable M F A Device
   version: 1.0.0
+  description: Enables the specified MFA device and associates it with the specified
+    IAM user.
 schemes:
 - http
 produces:
