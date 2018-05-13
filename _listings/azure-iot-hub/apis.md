@@ -30,16 +30,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-iot-hub/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devices-iothubs-resourcename-importdevices-post.md
-- name: Azure IoT Hub API Iot Hub Resource Export Devices
-  description: 'Exports all the device identities in the IoT hub identity registry
-    to an Azure Storage blob container. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-identity-registry#import-and-export-device-identities.'
+- name: Azure IoT Hub API Iot Hub Resource Import Devices
+  description: 'Import, update, or delete device identities in the IoT hub identity
+    registry from a blob. For more information, see: https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-identity-registry#import-and-export-device-identities.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-iot-01-establish.png
   humanURL: https://azure.microsoft.com/en-us/services/iot-hub/
   baseURL: http:://management.azure.com//
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-iot-hub/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devices-iothubs-resourcename-exportdevices-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-iot-hub/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devices-iothubs-resourcename-importdevices-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/iot-hub/
