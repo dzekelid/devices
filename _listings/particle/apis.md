@@ -30,17 +30,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-events-post.md
-- name: Particle Get Devices
-  description: List devices the currently authenticated user has access to.
+- name: Particle Add Devices
+  description: Claim a new or unclaimed device to your account or request transfer
+    from another user.
   image: ""
   humanURL: https://www.particle.io/
   baseURL: https://api.particle.io/v1/
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-post-postman.md
 x-common:
 - type: x-base-url
   url: api.particle.io
