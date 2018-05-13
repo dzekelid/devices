@@ -31,16 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-identity-and-access-management/action-resyncmfadevice-get.md
-- name: AWS Identity and Access Management API Enable M F A Device
-  description: Enables the specified MFA device and associates it with the specified
-    IAM user.
+- name: AWS Identity and Access Management API List M F A Devices
+  description: Lists the MFA devices for an IAM user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-identity-and-access-management/action-enablemfadevice-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-identity-and-access-management/action-listmfadevices-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
