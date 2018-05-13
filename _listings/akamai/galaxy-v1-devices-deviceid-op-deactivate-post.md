@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Deactivate a Device
+  description: Deactivate a Device
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Deactivate a Device
       operationId: galaxyv1devicesdeviceidopdeactivate
       parameters:
-      - in: String
+      - in: query
         name: deviceId
         description: Identifies the device, maximum 50 characters
         type: string
