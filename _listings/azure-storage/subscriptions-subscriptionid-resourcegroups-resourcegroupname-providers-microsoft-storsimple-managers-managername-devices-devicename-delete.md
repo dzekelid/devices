@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Devices Delete
   version: 1.0.0
+  description: Deletes the device.
 host: management.azure.com
 basePath: /
 schemes:
