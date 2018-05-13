@@ -14,15 +14,17 @@ modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-storage/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Azure Storage API Devices Configure
-  description: Complete minimal setup before using the device.
+- name: Azure Storage API Devices List By Manager
+  description: Returns the list of devices for the specified manager.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png
   humanURL: https://azure.microsoft.com/en-us/services/storage/
   baseURL: http:://management.azure.com//
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storsimple-managers-managername-configuredevice-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storsimple-managers-managername-devices-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storsimple-managers-managername-devices-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
