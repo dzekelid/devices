@@ -30,17 +30,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-events-post.md
-- name: Particle Put Devices Device
-  description: Flash a device.
+- name: Particle Get Devices Device Name
+  description: Request the current value of a variable exposed by the device.
   image: ""
   humanURL: https://www.particle.io/
   baseURL: https://api.particle.io/v1/
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-deviceid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-deviceid-name-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-deviceid-put-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/particle/devices-deviceid-name-get-postman.md
 x-common:
 - type: x-base-url
   url: api.particle.io
