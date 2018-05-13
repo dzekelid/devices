@@ -31,16 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-identity-and-access-management/action-resyncmfadevice-get.md
-- name: AWS Identity and Access Management API List Virtual M F A Devices
-  description: Lists the virtual MFA devices defined in the AWS account by assignment
-    status.
+- name: AWS Identity and Access Management API Resync M F A Device
+  description: |-
+    Synchronizes the specified MFA device with its IAM resource object on the AWS
+          servers.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Devices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-identity-and-access-management/action-listvirtualmfadevices-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-identity-and-access-management/action-resyncmfadevice-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
