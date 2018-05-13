@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Devices Update
   version: 1.0.0
+  description: Patches the device.
 host: management.azure.com
 basePath: /
 schemes:
