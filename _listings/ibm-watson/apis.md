@@ -1,26 +1,64 @@
 ---
 name: IBM Watson
+x-slug: ibm-watson
 description: Meet IBM Watson, a cognitive system that enables a new partnership between
   people and computers that enhances and scales human expertise. Watson has been learning
   the language of professions and is trained by experts to work across many different
   industries.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Partners
-- Machine Learning
-- Machine Learning
-- Getting Started
-- API LIfeycle
-- AI
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "0"
+tags: Devices
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ibm-watson/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: IBM Watson IoT Platform Get the state for the device with the specified id
+  x-api-slug: ibm-watson-iot-platform
+  description: Retrieve the current state of the device with the specified id.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https:////api/v0002//device/types/{typeId}/devices/{deviceId}/state/{logicalInterfaceId}
+  tags: Internet of Things,Device,Types,Devices,DeviceId,State,LogicalInterfaceId
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ibm-watson/devicetypestypeiddevicesdeviceidstatelogicalinterfaceid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ibm-watson/devicetypestypeiddevicesdeviceidstatelogicalinterfaceid-get-openapi.md
+- name: IBM Watson IoT Platform Perform an operation against the device state for
+    a logical interface
+  x-api-slug: ibm-watson-iot-platform
+  description: |-
+    Performs the specified operation against the device state for a logical
+    interface. The following values can be specified for the operation
+    property:
+
+      - reset-state
+
+    The **reset-state** operation will reset the state of the specified
+    device to the default values as defined by the schema for the logical
+    interface.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https:////api/v0002//device/types/{typeId}/devices/{deviceId}/state/{logicalInterfaceId}
+  tags: Internet of Things,Device,Types,Devices,DeviceId,State,LogicalInterfaceId
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ibm-watson/devicetypestypeiddevicesdeviceidstatelogicalinterfaceid-patch-openapi.md
+- name: IBM Watson IoT Platform
+  x-api-slug: ibm-watson-iot-platform
+  description: Meet IBM Watson, a cognitive system that enables a new partnership
+    between people and computers that enhances and scales human expertise. Watson
+    has been learning the language of professions and is trained by experts to work
+    across many different industries.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https:////api/v0002
+  tags: Devices
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ibm-watson/openapi.md
 x-common:
 - type: x-application-gallery
   url: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/gallery.html
