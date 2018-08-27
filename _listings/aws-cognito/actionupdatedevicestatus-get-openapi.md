@@ -133,6 +133,129 @@ paths:
           description: OK
       tags:
       - Devices
+  /?Action=RegisterDevice:
+    get:
+      summary: Register Device
+      description: Registers a device to receive push sync notifications.
+      operationId: registerDevice
+      x-api-path-slug: actionregisterdevice-get
+      parameters:
+      - in: query
+        name: IdentityId
+        description: The unique ID for this identity
+        type: string
+      - in: query
+        name: IdentityPoolId
+        description: A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE)
+          created by Amazon Cognito
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Devices
+  /?Action=AdminListDevices:
+    get:
+      summary: Admin List Devices
+      description: Lists devices, as an administrator.
+      operationId: adminListDevices
+      x-api-path-slug: actionadminlistdevices-get
+      parameters:
+      - in: query
+        name: Limit
+        description: The limit of the devices request
+        type: string
+      - in: query
+        name: PaginationToken
+        description: The pagination token
+        type: string
+      - in: query
+        name: Username
+        description: The user name
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The user pool ID
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - http://laneworks.net/api-stack/pull/pull-amazon-cognito-sync.php
+  /?Action=AdminGetDevice:
+    get:
+      summary: Admin Get Device
+      description: Gets the device, as an administrator.
+      operationId: adminGetDevice
+      x-api-path-slug: actionadmingetdevice-get
+      parameters:
+      - in: query
+        name: DeviceKey
+        description: The device key
+        type: string
+      - in: query
+        name: Username
+        description: The user name
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The user pool ID
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - http://laneworks.net/api-stack/pull/pull-amazon-cognito-sync.php
+  /?Action=AdminUpdateDeviceStatus:
+    get:
+      summary: Admin Update Device Status
+      description: Updates the device status as an administrator.
+      operationId: adminUpdateDeviceStatus
+      x-api-path-slug: actionadminupdatedevicestatus-get
+      parameters:
+      - in: query
+        name: DeviceKey
+        description: The device key
+        type: string
+      - in: query
+        name: DeviceRememberedStatus
+        description: The status indicating whether a device has been remembered or
+          not
+        type: string
+      - in: query
+        name: Username
+        description: The user name
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The user pool ID&gt;
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+  /?Action=GetDevice:
+    get:
+      summary: Get Device
+      description: Gets the device.
+      operationId: getDevice
+      x-api-path-slug: actiongetdevice-get
+      parameters:
+      - in: query
+        name: AccessToken
+        description: The access token
+        type: string
+      - in: query
+        name: DeviceKey
+        description: The device key
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Pools
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

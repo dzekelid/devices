@@ -7,57 +7,60 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server
 x-kinRank: "7"
 x-alexaRank: "209719"
 tags: Devices
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Devices API Creating a device
-  x-api-slug: devices-api
-  description: |-
-    You can create new devices via the API, useful if you want to automatically provision new devices and start monitoring automatically.
-    This API method is used by our Puppet manifest, Chef cookbook and installer shell script to automatically create devices during the agent installation.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
-  humanURL: https://www.serverdensity.com
-  baseURL: ://api.serverdensity.io.///inventory/devices
-  tags: Devices
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/inventorydevices--openapi.md
-- name: Devices API Updating a device
-  x-api-slug: devices-api
-  description: Update a device and the associated metadata.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
-  humanURL: https://www.serverdensity.com
-  baseURL: ://api.serverdensity.io.///inventory/devices/deviceId
-  tags: Devices
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/inventorydevicesdeviceid--openapi.md
-- name: Devices API View device by agent key
-  x-api-slug: devices-api
-  description: View device by agent key.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
-  humanURL: https://www.serverdensity.com
-  baseURL: ://api.serverdensity.io.///inventory/devices/agentKey/byagentkey
-  tags: Devices
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/inventorydevicesagentkeybyagentkey--openapi.md
-- name: Devices API
-  x-api-slug: devices-api
-  description: SaaS infrastructure monitoring. Dashboards, graphs and alerts to help
-    you improve performance and maintain uptime. Organizer of @humanops
+- name: Service Status API - Listing service alert metrics
+  x-api-slug: alertsservice-alerts-json-
+  description: Devices and services have different alert metrics which you can configure
+    in the ui. The section correspond to the top-level of the alert metric whereas
+    field corresponds to the subsection of the given section.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
   humanURL: https://www.serverdensity.com
   baseURL: ://api.serverdensity.io./
-  tags: Devices
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/alertsservice-alerts-json--postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/alertsservice-alerts-json--openapi.md
+- name: Service Status API - Listing service alert metrics
+  x-api-slug: alertsservice-alerts-json-
+  description: Devices and services have different alert metrics which you can configure
+    in the ui. The section correspond to the top-level of the alert metric whereas
+    field corresponds to the subsection of the given section.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/alertsservice-alerts-json--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/alertsservice-alerts-json--openapi.md
+- name: Service Status API - Listing service alert metrics
+  x-api-slug: alertsservice-alerts-json-
+  description: Devices and services have different alert metrics which you can configure
+    in the ui. The section correspond to the top-level of the alert metric whereas
+    field corresponds to the subsection of the given section.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/alertsservice-alerts-json--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/alertsservice-alerts-json--openapi.md
 x-common:
 - type: x-website
   url: https://www.serverdensity.com
+- type: x-api-gallery
+  url: http://sensr.net.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://server.density.stack.network
 - type: x-blog
   url: http://blog.serverdensity.com/
 - type: x-blog-rss

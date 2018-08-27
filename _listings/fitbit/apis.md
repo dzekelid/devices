@@ -8,38 +8,20 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit
 x-kinRank: "9"
 x-alexaRank: "2266"
 tags: Devices
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/fitbit/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Fitbit Get User Devices.json
-  x-api-slug: fitbit
-  description: Retrieve the list of Fitbit devices for a user in the format requested.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit.jpg
-  humanURL: http://fitbit.com
-  baseURL: https://api.fitbit.com//1//user/-/devices.json
-  tags: User,-,Devices.json
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/fitbit/userdevices-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/fitbit/userdevices-json-get-openapi.md
-- name: Fitbit
-  x-api-slug: fitbit
-  description: Find your fit with Fitbits family of fitness products that help you
-    stay motivated and improve your health by tracking your activity, exercise, food,
-    weight and sleep.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit.jpg
-  humanURL: http://fitbit.com
-  baseURL: https://api.fitbit.com//1
-  tags: Devices
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/fitbit/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: https://www.fitbit.com/apis.json
+- type: x-openapi
+  url: https://dev.fitbit.com/reference/web-api/explore/fitbit-web-api.swagger.json
+- type: x-api-gallery
+  url: http://first.trust.bank.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://fitbit.stack.network
 - type: x-apigee-console
   url: https://wiki.fitbit.com/display/API/API+Explorer
 - type: x-blog

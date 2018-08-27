@@ -33,6 +33,25 @@ paths:
       tags:
       - List
       - Devices
+    post:
+      summary: Create Device
+      description: Create device Create and register a new device in the organization.
+      operationId: CreateDevice
+      x-api-path-slug: devices-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: Content-type
+        description: application/json
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Device
   /users/{id | userPrincipalName}/ownedDevices:
     get:
       summary: List Owned Devices
@@ -80,4 +99,59 @@ paths:
       - List
       - Registered
       - Devices
+  /devices/{id}:
+    delete:
+      summary: Delete Device
+      description: Delete device Delete a registered device.
+      operationId: DeleteDevice
+      x-api-path-slug: devicesid-delete
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Device
+    get:
+      summary: Get Device
+      description: Get device Get the properties and relationships of a device object.
+      operationId: GetDevice
+      x-api-path-slug: devicesid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Device
+    patch:
+      summary: Update Device
+      description: Update device Update the properties of a registered device.
+      operationId: UpdateDevice
+      x-api-path-slug: devicesid-patch
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Device
 ---

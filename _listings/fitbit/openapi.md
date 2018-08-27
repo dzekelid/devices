@@ -14,18 +14,4 @@ produces:
 - application/json
 consumes:
 - application/json
-paths:
-  /user/-/devices.json:
-    get:
-      summary: Get User Devices.json
-      description: Retrieve the list of Fitbit devices for a user in the format requested.
-      operationId: getUserDevices.json
-      x-api-path-slug: userdevices-json-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - User
-      - '-'
-      - Devices.json
 ---

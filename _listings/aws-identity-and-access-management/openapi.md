@@ -12,52 +12,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteVirtualMFADevice:
-    get:
-      summary: Delete Virtual M F A Device
-      description: Deletes a virtual MFA device.
-      operationId: deleteVirtualMFADevice
-      x-api-path-slug: actiondeletevirtualmfadevice-get
-      parameters:
-      - in: query
-        name: SerialNumber
-        description: The serial number that uniquely identifies the MFA device
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Virtual MFA Devices
-  /?Action=EnableMFADevice:
-    get:
-      summary: Enable M F A Device
-      description: Enables the specified MFA device and associates it with the specified
-        IAM user.
-      operationId: enableMFADevice
-      x-api-path-slug: actionenablemfadevice-get
-      parameters:
-      - in: query
-        name: AuthenticationCode1
-        description: An authentication code emitted by the device
-        type: string
-      - in: query
-        name: AuthenticationCode2
-        description: A subsequent authentication code emitted by the device
-        type: string
-      - in: query
-        name: SerialNumber
-        description: The serial number that uniquely identifies the MFA device
-        type: string
-      - in: query
-        name: UserName
-        description: The name of the IAM user for whom you want to enable the MFA
-          device
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - MFA Devices
   /?Action=ListMFADevices:
     get:
       summary: List M F A Devices
@@ -111,6 +65,94 @@ paths:
           description: OK
       tags:
       - Virtual MFA Devices
+  /?Action=CreateVirtualMFADevice:
+    get:
+      summary: Create Virtual M F A Device
+      description: Creates a new virtual MFA device for the AWS account.
+      operationId: createVirtualMFADevice
+      x-api-path-slug: actioncreatevirtualmfadevice-get
+      parameters:
+      - in: query
+        name: Path
+        description: The path for the virtual MFA device
+        type: string
+      - in: query
+        name: VirtualMFADeviceName
+        description: The name of the virtual MFA device
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Virtual MFA Device
+  /?Action=DeactivateMFADevice:
+    get:
+      summary: Deactivate M F A Device
+      description: |-
+        Deactivates the specified MFA device and removes it from association with the user name
+              for which it was originally enabled.
+      operationId: deactivateMFADevice
+      x-api-path-slug: actiondeactivatemfadevice-get
+      parameters:
+      - in: query
+        name: SerialNumber
+        description: The serial number that uniquely identifies the MFA device
+        type: string
+      - in: query
+        name: UserName
+        description: The name of the user whose MFA device you want to deactivate
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Virtual MFA Device
+  /?Action=DeleteVirtualMFADevice:
+    get:
+      summary: Delete Virtual M F A Device
+      description: Deletes a virtual MFA device.
+      operationId: deleteVirtualMFADevice
+      x-api-path-slug: actiondeletevirtualmfadevice-get
+      parameters:
+      - in: query
+        name: SerialNumber
+        description: The serial number that uniquely identifies the MFA device
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Virtual MFA Devices
+  /?Action=EnableMFADevice:
+    get:
+      summary: Enable M F A Device
+      description: Enables the specified MFA device and associates it with the specified
+        IAM user.
+      operationId: enableMFADevice
+      x-api-path-slug: actionenablemfadevice-get
+      parameters:
+      - in: query
+        name: AuthenticationCode1
+        description: An authentication code emitted by the device
+        type: string
+      - in: query
+        name: AuthenticationCode2
+        description: A subsequent authentication code emitted by the device
+        type: string
+      - in: query
+        name: SerialNumber
+        description: The serial number that uniquely identifies the MFA device
+        type: string
+      - in: query
+        name: UserName
+        description: The name of the IAM user for whom you want to enable the MFA
+          device
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - MFA Devices
   /?Action=ResyncMFADevice:
     get:
       summary: Resync M F A Device
