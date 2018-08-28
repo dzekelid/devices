@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Cognito
 x-complete: 1
@@ -255,4 +254,3 @@ paths:
       tags:
       - Users
       - Pools
----

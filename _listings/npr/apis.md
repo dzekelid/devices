@@ -8,11 +8,28 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jp
 x-kinRank: "9"
 x-alexaRank: "598"
 tags: Devices
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/npr/apis.md
 specificationVersion: "0.14"
 apis:
+- name: NPR One API Reference - Initiate an OAuth2 login flow for limited input devices
+  x-api-slug: authorizationv2device-post
+  description: |-
+    This flow should only be used by clients who cannot show a native webview or do not have advanced input controls. It is an alternative to `GET /authorization/v2/authorize`.
+
+    Third-party clients will need to use one or the other of these two endpoints, but they will generally not use both.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
+  humanURL: http://npr.org
+  baseURL: https://api.npr.org//
+  tags: News, Radio, Getting Started Example, Federal Government, Stack Network, Stack,
+    Mobile, Media, API Provider, Broadcasts, Profiles, Publish, General Data, Relative
+    Data, Service API, Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/npr/authorizationv2device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/npr/authorizationv2device-post-openapi.md
 - name: NPR One API Reference - Initiate an OAuth2 login flow for limited input devices
   x-api-slug: authorizationv2device-post
   description: |-

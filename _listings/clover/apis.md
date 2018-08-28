@@ -12,11 +12,60 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "23096"
 tags: Devices
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/clover/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: ' - Get all devices provisioned to a merchant'
+  x-api-slug: v3merchantsmiddevices-get
+  description: Returns a list of all devices that are provisioned to the a merchant.
+    This list can be viewed from the Setup App on the merchant's device or web dashboard
+    (https://www.clover.com/setupapp/m/{mId}/devices).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/clover/v3merchantsmiddevices-get-openapi.md
+- name: ' - Get a single device provisioned to a merchant'
+  x-api-slug: v3merchantsmiddevicesdeviceid-get
+  description: Returns a single device that is provisioned to a merchant.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/clover/v3merchantsmiddevicesdeviceid-get-openapi.md
+- name: ' - Get all cash events for a device'
+  x-api-slug: v3merchantsmiddevicesdeviceidcash-events-get
+  description: Retrieve cash events filtered by device ID. Cash events can also be
+    consumed by registering a Webhook callback. See https://docs.clover.com/build/webhooks/
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/clover/v3merchantsmiddevicesdeviceidcash-events-get-openapi.md
+- name: ' - Create a notification for a device'
+  x-api-slug: v3appsaiddevicesdidnotifications-post
+  description: 'Push a message to a device that has your app installed and is listening
+    for notifications.  For details on how to use Clover''s Android SDK to receive
+    notifications see: https://github.com/clover/android-examples/tree/master/pushnotificationexample'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/clover/v3appsaiddevicesdidnotifications-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://cloudflare.api.gallery.streamdata.io

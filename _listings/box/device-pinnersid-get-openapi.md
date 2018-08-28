@@ -61,6 +61,21 @@ paths:
       - Documents
       - Device
       - Pinners
+    delete:
+      summary: Delete Device Pin
+      description: Delete individual device pin.
+      operationId: deleteDevicePin
+      x-api-path-slug: device-pinnersid-delete
+      parameters:
+      - in: path
+        name: ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Device
+      - Pinners
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

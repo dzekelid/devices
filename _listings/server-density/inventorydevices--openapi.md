@@ -27,7 +27,7 @@ paths:
       parameters:
       - in: body
         name: cpuCores
-        description: Items number of cores
+        description: Item???s number of cores
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -37,7 +37,7 @@ paths:
           $ref: '#/definitions/holder'
       - in: body
         name: hostname
-        description: Devices hostname
+        description: Device???s hostname
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -63,7 +63,7 @@ paths:
           $ref: '#/definitions/holder'
       - in: body
         name: privateIPs
-        description: Items private IP addresses as a JSON encoded list
+        description: Item???s private IP addresses as a JSON encoded list
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -73,12 +73,12 @@ paths:
           $ref: '#/definitions/holder'
       - in: body
         name: publicIPs
-        description: Items public IP addresses as a JSON encoded list
+        description: Item???s public IP addresses as a JSON encoded list
         schema:
           $ref: '#/definitions/holder'
       - in: body
         name: swapSpace
-        description: Items swap space
+        description: Item???s swap space
         schema:
           $ref: '#/definitions/holder'
       - in: body

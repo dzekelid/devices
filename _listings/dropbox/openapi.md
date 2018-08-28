@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Dropbox
 x-complete: 1
@@ -18,4 +17,22 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /reports/get_devices:
+    post:
+      summary: Get Devices
+      description: Get devices.
+      operationId: postReportsGetDevices
+      x-api-path-slug: reportsget-devices-post
+      parameters:
+      - in: query
+        name: end_date
+        description: optional ending date (exclusive)
+      - in: query
+        name: start_date
+        description: optional starting date (inclusive)
+      responses:
+        200:
+          description: OK
+      tags:
+      - Devices

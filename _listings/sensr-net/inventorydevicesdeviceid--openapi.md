@@ -6,13 +6,13 @@ info:
   title: Devices API Updating a device
   description: Update a device and the associated metadata.
   version: 1.0.0
-host: api.serverdensity.io.
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.serverdensity.io.
 paths:
   /inventory/devices:
     "":
@@ -25,7 +25,7 @@ paths:
       parameters:
       - in: body
         name: cpuCores
-        description: Items number of cores
+        description: Item???s number of cores
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -35,7 +35,7 @@ paths:
           $ref: '#/definitions/holder'
       - in: body
         name: hostname
-        description: Devices hostname
+        description: Device???s hostname
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -61,7 +61,7 @@ paths:
           $ref: '#/definitions/holder'
       - in: body
         name: privateIPs
-        description: Items private IP addresses as a JSON encoded list
+        description: Item???s private IP addresses as a JSON encoded list
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -71,12 +71,12 @@ paths:
           $ref: '#/definitions/holder'
       - in: body
         name: publicIPs
-        description: Items public IP addresses as a JSON encoded list
+        description: Item???s public IP addresses as a JSON encoded list
         schema:
           $ref: '#/definitions/holder'
       - in: body
         name: swapSpace
-        description: Items swap space
+        description: Item???s swap space
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -117,11 +117,11 @@ paths:
       parameters:
       - in: path
         name: cpuCores
-        description: Items number of cores
+        description: Item???s number of cores
         type: string
       - in: body
         name: cpuCores
-        description: Items number of cores
+        description: Item???s number of cores
         schema:
           $ref: '#/definitions/holder'
       - in: path
@@ -139,11 +139,11 @@ paths:
           $ref: '#/definitions/holder'
       - in: path
         name: hostname
-        description: Items hostname
+        description: Item???s hostname
         type: string
       - in: body
         name: hostname
-        description: Items hostname
+        description: Item???s hostname
         schema:
           $ref: '#/definitions/holder'
       - in: path
@@ -175,11 +175,11 @@ paths:
           $ref: '#/definitions/holder'
       - in: path
         name: privateIPs
-        description: Items private IP addresses as a JSON encoded list
+        description: Item???s private IP addresses as a JSON encoded list
         type: string
       - in: body
         name: privateIPs
-        description: Items private IP addresses as a JSON encoded list
+        description: Item???s private IP addresses as a JSON encoded list
         schema:
           $ref: '#/definitions/holder'
       - in: path
@@ -202,20 +202,20 @@ paths:
           $ref: '#/definitions/holder'
       - in: path
         name: publicIPs
-        description: Items public IP addresss as a JSON encoded list
+        description: Item???s public IP addresss as a JSON encoded list
         type: string
       - in: body
         name: publicIPs
-        description: Items public IP addresss as a JSON encoded list
+        description: Item???s public IP addresss as a JSON encoded list
         schema:
           $ref: '#/definitions/holder'
       - in: path
         name: swapSpace
-        description: Items swap space
+        description: Item???s swap space
         type: string
       - in: body
         name: swapSpace
-        description: Items swap space
+        description: Item???s swap space
         schema:
           $ref: '#/definitions/holder'
       - in: path

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-a
 x-kinRank: "8"
 x-alexaRank: "79571"
 tags: Devices
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/apis.md
 specificationVersion: "0.14"
 apis:
@@ -191,6 +191,185 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokensdevice-tokentagstag-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokensdevice-tokentagstag-delete-openapi.md
+- name: Urban Airship - Delete Device Tokens Device Token Tags Tag
+  x-api-slug: device-tokensdevice-tokentagstag-delete
+  description: Removes a single tag from a device token.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokensdevice-tokentagstag-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokensdevice-tokentagstag-delete-openapi.md
+- name: Urban Airship - Put Device Tokens Device Token Tags Tag
+  x-api-slug: device-tokensdevice-tokentagstag-put
+  description: Creates a tag and associate it with the specific device token.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokensdevice-tokentagstag-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokensdevice-tokentagstag-put-openapi.md
+- name: Urban Airship - Get Device Tokens Device Token Tags
+  x-api-slug: device-tokensdevice-tokentags-get
+  description: Gets tags for a specific device token.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokensdevice-tokentags-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokensdevice-tokentags-get-openapi.md
+- name: Urban Airship - Delete Device Pins Pin
+  x-api-slug: device-pinspin-delete
+  description: Marks a PIN as inactive. No notifications will be delivered to it until
+    a PUT is executed again.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-pinspin-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-pinspin-delete-openapi.md
+- name: Urban Airship - Get Device Pins Pin
+  x-api-slug: device-pinspin-get
+  description: Gets Device PIN information.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-pinspin-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-pinspin-get-openapi.md
+- name: Urban Airship - Put Device Pins Pin
+  x-api-slug: device-pinspin-put
+  description: Registers a BlackBerry PIN. This is optional, but recommended, for
+    BlackBerry push messages. This returns HTTP 201 Created for the first registration
+    and 200 OK for any updates. If you wish to include additional information about
+    a device pin, for instance an alias or tags, include a JSON payload along with
+    this request. Not including one of these keys removes it from the device pin.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-pinspin-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-pinspin-put-openapi.md
+- name: Urban Airship - Get Device Tokens Feedback
+  x-api-slug: device-tokensfeedback-get
+  description: Gets what device tokens are now invalid. Apple informs us when a push
+    notification is sent to a device that can???t receive it because the application
+    has been uninstalled. We mark the device token as inactive and immediately stop
+    sending notifications to that device. Once a day is a good interval for querying
+    the feedback service, but you can do it more often to save on bandwidth from unnecessary
+    notifications. In the response, what does marked_inactive_on mean? Apple sends
+    a timestamp for each device token returned via the feedback service. Since a device
+    can be off the network for a while, this can be a point in the recent past. In
+    order to make this API work smoothly for you, we record the timestamp we marked
+    as inactive. This means you only need to query for data since the last time you
+    queried. Once a day is a good timeframe, or once a week for very small or infrequently
+    used applications. A few times a day is good for applications with heavy use.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokensfeedback-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokensfeedback-get-openapi.md
+- name: Urban Airship - Get Device Tokens Count
+  x-api-slug: device-tokenscount-get
+  description: Gets the number of device tokens you have registered.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokenscount-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokenscount-get-openapi.md
+- name: Urban Airship - Get Device Tokens
+  x-api-slug: device-tokens-get
+  description: Gets information about all of your device tokens. If your application
+    has a large number of device tokens, we???ll paginate the request for you. By
+    default, we paginate at 5000 device tokens. You can receive the next page simply
+    by retrieving the URL from "next_page" - in this way it is easy to export all
+    of your device tokens and all their data.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokens-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokens-get-openapi.md
+- name: Urban Airship - Delete Device Tokens Token
+  x-api-slug: device-tokenstoken-delete
+  description: Marks the device token as inactive. No notifications will be delivered
+    to it until a PUT is executed again. The DELETE returns HTTP 204 No Content, and
+    needs no payload. When a token is deleted in this manner, any alias or tags will
+    be cleared.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokenstoken-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokenstoken-delete-openapi.md
+- name: Urban Airship - Get Device Tokens Token
+  x-api-slug: device-tokenstoken-get
+  description: Gets a device token???s alias.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokenstoken-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokenstoken-get-openapi.md
+- name: Urban Airship - Put Device Tokens Token
+  x-api-slug: device-tokenstoken-put
+  description: Registers a device token.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokenstoken-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/device-tokenstoken-put-openapi.md
 x-common:
 - type: x-website
   url: http://urbanairship.com/

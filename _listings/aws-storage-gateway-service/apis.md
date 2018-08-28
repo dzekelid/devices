@@ -15,11 +15,39 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Devices
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-storage-gateway-service/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Storage Gateway Service API - Describe VTL Devices
+  x-api-slug: actiondescribevtldevices-get
+  description: |-
+    Returns a description of virtual tape library (VTL) devices for the specified
+             gateway.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-storage-gateway-service/actiondescribevtldevices-get-openapi.md
+- name: AWS Storage Gateway Service API - Describe VTL Devices
+  x-api-slug: actiondescribevtldevices-get
+  description: |-
+    Returns a description of virtual tape library (VTL) devices for the specified
+             gateway.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-storage-gateway-service/actiondescribevtldevices-get-openapi.md
 - name: AWS Storage Gateway Service API - Update VTL Device Type
   x-api-slug: actionupdatevtldevicetype-get
   description: Updates the type of medium changer in a gateway-VTL.
@@ -34,6 +62,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-storage-gateway-service/actionupdatevtldevicetype-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-storage-gateway-service/actionupdatevtldevicetype-get-openapi.md
+- name: AWS Storage Gateway Service API - Describe VTL Devices
+  x-api-slug: actiondescribevtldevices-get
+  description: |-
+    Returns a description of virtual tape library (VTL) devices for the specified
+             gateway.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Data, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Databases, Deployments, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-storage-gateway-service/actiondescribevtldevices-get-openapi.md
 - name: AWS Storage Gateway Service API - Update VTL Device Type
   x-api-slug: actionupdatevtldevicetype-get
   description: Updates the type of medium changer in a gateway-VTL.

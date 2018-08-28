@@ -44,22 +44,31 @@ paths:
           Resource Name (ARN) of a         VTL device
         type: string
       responses:
-        apps:
-          description: app_allow
-        devices:
-          description: device_link
-        members:
-          description: member_invite
-        passwords:
-          description: tfa_enable
-        sharing:
-          description: shmodel_create
-        team_admin_actions:
-          description: sf_external_accept_allow
         200:
           description: OK
       tags:
       - VTL Devices
+  /?Action=UpdateVTLDeviceType:
+    get:
+      summary: Update VTL Device Type
+      description: Updates the type of medium changer in a gateway-VTL.
+      operationId: updateVTLDeviceType
+      x-api-path-slug: actionupdatevtldevicetype-get
+      parameters:
+      - in: query
+        name: DeviceType
+        description: The type of medium changer you want to select
+        type: string
+      - in: query
+        name: VTLDeviceARN
+        description: The Amazon Resource Name (ARN) of the medium changer you want
+          to select
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - VTL Device Type
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

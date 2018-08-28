@@ -9,11 +9,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Devices
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Device Farm API - Get Device
+  x-api-slug: actiongetdevice-get
+  description: Gets information about a unique device type.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actiongetdevice-get-openapi.md
+- name: AWS Device Farm API - List Devices
+  x-api-slug: actionlistdevices-get
+  description: Gets information about unique device types.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistdevices-get-openapi.md
 - name: AWS Device Farm API - Create Device Pool
   x-api-slug: actioncreatedevicepool-get
   description: Creates a device pool.
@@ -40,6 +62,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actiondeletedevicepool-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actiondeletedevicepool-get-openapi.md
+- name: AWS Device Farm API - Delete Project
+  x-api-slug: actiondeleteproject-get
+  description: Deletes an AWS Device Farm project, given the project ARN.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actiondeleteproject-get-openapi.md
+- name: AWS Device Farm API - Get Device
+  x-api-slug: actiongetdevice-get
+  description: Gets information about a unique device type.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actiongetdevice-get-openapi.md
 - name: AWS Device Farm API - Get Device Pool
   x-api-slug: actiongetdevicepool-get
   description: Gets information about a device pool.
@@ -79,6 +123,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistdevicepools-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistdevicepools-get-openapi.md
+- name: AWS Device Farm API - List Devices
+  x-api-slug: actionlistdevices-get
+  description: Gets information about unique device types.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistdevices-get-openapi.md
 - name: AWS Device Farm API - List Runs
   x-api-slug: actionlistruns-get
   description: Gets information about runs, given an AWS Device Farm project ARN.
@@ -92,6 +147,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistruns-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistruns-get-openapi.md
+- name: AWS Device Farm API - List Samples
+  x-api-slug: actionlistsamples-get
+  description: Gets information about samples, given an AWS Device Farm project ARN.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistsamples-get-openapi.md
+- name: AWS Device Farm API - List Uploads
+  x-api-slug: actionlistuploads-get
+  description: Gets information about uploads, given an AWS Device Farm project ARN.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistuploads-get-openapi.md
 - name: AWS Device Farm API - Update Device Pool
   x-api-slug: actionupdatedevicepool-get
   description: Modifies the name, description, and rules in a device pool given the
@@ -132,6 +209,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actiondeletedevicepool-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actiondeletedevicepool-get-openapi.md
+- name: AWS Device Farm API - Delete Project
+  x-api-slug: actiondeleteproject-get
+  description: Deletes an AWS Device Farm project, given the project ARN.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actiondeleteproject-get-openapi.md
+- name: AWS Device Farm API - Get Device
+  x-api-slug: actiongetdevice-get
+  description: Gets information about a unique device type.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actiongetdevice-get-openapi.md
 - name: AWS Device Farm API - Get Device Pool
   x-api-slug: actiongetdevicepool-get
   description: Gets information about a device pool.
@@ -171,6 +270,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistdevicepools-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistdevicepools-get-openapi.md
+- name: AWS Device Farm API - List Devices
+  x-api-slug: actionlistdevices-get
+  description: Gets information about unique device types.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistdevices-get-openapi.md
 - name: AWS Device Farm API - List Runs
   x-api-slug: actionlistruns-get
   description: Gets information about runs, given an AWS Device Farm project ARN.
@@ -184,6 +294,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistruns-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistruns-get-openapi.md
+- name: AWS Device Farm API - List Samples
+  x-api-slug: actionlistsamples-get
+  description: Gets information about samples, given an AWS Device Farm project ARN.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistsamples-get-openapi.md
+- name: AWS Device Farm API - List Uploads
+  x-api-slug: actionlistuploads-get
+  description: Gets information about uploads, given an AWS Device Farm project ARN.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/actionlistuploads-get-openapi.md
 - name: AWS Device Farm API - Update Device Pool
   x-api-slug: actionupdatedevicepool-get
   description: Modifies the name, description, and rules in a device pool given the

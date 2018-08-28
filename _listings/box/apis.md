@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jp
 x-kinRank: "9"
 x-alexaRank: "445"
 tags: Devices
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/box/apis.md
 specificationVersion: "0.14"
 apis:
@@ -55,6 +55,49 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/box/device-pinnersid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/box/device-pinnersid-delete-openapi.md
+- name: Box - Delete Device Pin
+  x-api-slug: device-pinnersid-delete
+  description: Delete individual device pin.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/box/device-pinnersid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/box/device-pinnersid-delete-openapi.md
+- name: Box - Get Device Pin
+  x-api-slug: device-pinnersid-get
+  description: Gets information about an individual device pin.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/box/device-pinnersid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/box/device-pinnersid-get-openapi.md
+- name: Box - Get Enterprise Device Pins
+  x-api-slug: enterprisesenterprise-iddevice-pinners-get
+  description: Gets all the device pins within a given enterprise. Must be an enterprise
+    admin with the manage enterprise scope to make this call.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/box/enterprisesenterprise-iddevice-pinners-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/box/enterprisesenterprise-iddevice-pinners-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://botify.api.gallery.streamdata.io

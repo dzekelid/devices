@@ -275,6 +275,23 @@ paths:
       tags:
       - Deregister
       - Device
+  /vehicles/9aa35c64-b046-43cc-9cd8-4c353a6d0b30/codes:
+    get:
+      summary: List all DTCs for a Device
+      description: List all dtcs for a device.
+      operationId: Vehicles9aa35c64B04643cc9cd84c353a6d0b30CodesGet
+      x-api-path-slug: vehicles9aa35c64b04643cc9cd84c353a6d0b30codes-get
+      parameters:
+      - in: header
+        name: Accept
+      responses:
+        200:
+          description: OK
+      tags:
+      - List
+      - ""
+      - DTCsa
+      - Device
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

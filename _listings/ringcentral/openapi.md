@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: RingCentral
 x-complete: 1
@@ -102,4 +101,3 @@ paths:
       - Register
       - SIP
       - Device
----

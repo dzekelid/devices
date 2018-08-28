@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreak
 x-kinRank: "8"
 x-alexaRank: "12286"
 tags: Devices
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/spreaker/apis.md
 specificationVersion: "0.14"
 apis:
@@ -38,6 +38,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/spreaker/useruser-iddevices-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/spreaker/useruser-iddevices-get-openapi.md
+- name: Spreaker API - Create Device
+  x-api-slug: useruser-iddevices-get
+  description: Creates a new device.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
+  humanURL: http://spreaker.com
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/spreaker/useruser-iddevices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/spreaker/useruser-iddevices-get-openapi.md
+- name: Spreaker API - Delete Device
+  x-api-slug: useruser-iddevicetoken-delete
+  description: Delete the association from a mobile device and a registered user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
+  humanURL: http://spreaker.com
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/spreaker/useruser-iddevicetoken-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/spreaker/useruser-iddevicetoken-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://spotify.api.gallery.streamdata.io

@@ -9,11 +9,55 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Devices
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/google-play/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Play - Get User Devices
+  x-api-slug: enterprisesenterpriseidusersuseriddevices-get
+  description: Retrieves the IDs of all of a user's devices.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/google-play/enterprisesenterpriseidusersuseriddevices-get-openapi.md
+- name: Google Play - Get User Device
+  x-api-slug: enterprisesenterpriseidusersuseriddevicesdeviceid-get
+  description: Retrieves the details of a device.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/google-play/enterprisesenterpriseidusersuseriddevicesdeviceid-get-openapi.md
+- name: Google Play - Get User Devices
+  x-api-slug: enterprisesenterpriseidusersuseriddevices-get
+  description: Retrieves the IDs of all of a user's devices.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/google-play/enterprisesenterpriseidusersuseriddevices-get-openapi.md
+- name: Google Play - Get User Device
+  x-api-slug: enterprisesenterpriseidusersuseriddevicesdeviceid-get
+  description: Retrieves the details of a device.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png
+  humanURL: https://play.google.com/store
+  baseURL: https:///
+  tags: Google APIs, Android, Mobile, Gaming, Games, Movies, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/google-play/enterprisesenterpriseidusersuseriddevicesdeviceid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.people.api.gallery.streamdata.io

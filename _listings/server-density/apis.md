@@ -7,11 +7,43 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server
 x-kinRank: "7"
 x-alexaRank: "209719"
 tags: Devices
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Devices API - Creating a device
+  x-api-slug: inventorydevices-
+  description: |-
+    You can create new devices via the API, useful if you want to automatically provision new devices and start monitoring automatically.
+    This API method is used by our Puppet manifest, Chef cookbook and installer shell script to automatically create devices during the agent installation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/inventorydevices--openapi.md
+- name: Devices API - Updating a device
+  x-api-slug: inventorydevicesdeviceid-
+  description: Update a device and the associated metadata.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/inventorydevicesdeviceid--openapi.md
+- name: Devices API - View device by agent key
+  x-api-slug: inventorydevicesagentkeybyagentkey-
+  description: View device by agent key.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg
+  humanURL: https://www.serverdensity.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, API United Kingdom, SaaS, Technology, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/inventorydevicesagentkeybyagentkey--openapi.md
 - name: Service Status API - Listing service alert metrics
   x-api-slug: alertsservice-alerts-json-
   description: Devices and services have different alert metrics which you can configure

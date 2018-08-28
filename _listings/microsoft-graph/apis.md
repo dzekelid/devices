@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Devices
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/microsoft-graph/apis.md
 specificationVersion: "0.14"
 apis:
@@ -108,6 +108,58 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/microsoft-graph/devicesid-patch-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/microsoft-graph/devicesid-patch-openapi.md
+- name: Microsoft Graph API - Update Device
+  x-api-slug: devicesid-patch
+  description: Update device Update the properties of a registered device.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/microsoft-graph/devicesid-patch-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/microsoft-graph/devicesid-patch-openapi.md
+- name: Microsoft Graph API - Create Device
+  x-api-slug: devices-post
+  description: Create device Create and register a new device in the organization.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/microsoft-graph/devices-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/microsoft-graph/devices-post-openapi.md
+- name: Microsoft Graph API - Get Device
+  x-api-slug: devicesid-get
+  description: Get device Get the properties and relationships of a device object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/microsoft-graph/devicesid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/microsoft-graph/devicesid-get-openapi.md
+- name: Microsoft Graph API - Delete Device
+  x-api-slug: devicesid-delete
+  description: Delete device Delete a registered device.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/microsoft-graph/devicesid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/microsoft-graph/devicesid-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://messente.api.gallery.streamdata.io

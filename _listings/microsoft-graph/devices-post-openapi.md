@@ -136,6 +136,24 @@ paths:
           description: OK
       tags:
       - Device
+    patch:
+      summary: Update Device
+      description: Update device Update the properties of a registered device.
+      operationId: UpdateDevice
+      x-api-path-slug: devicesid-patch
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Device
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

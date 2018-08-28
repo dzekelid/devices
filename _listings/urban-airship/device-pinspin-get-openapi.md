@@ -196,6 +196,101 @@ paths:
       - Device
       - Pins
       - Pin
+    delete:
+      summary: Delete Device Pins Pin
+      description: Marks a PIN as inactive. No notifications will be delivered to
+        it until a PUT is executed again.
+      operationId: device_pins.pin.delete
+      x-api-path-slug: device-pinspin-delete
+      parameters:
+      - in: query
+        name: pin
+        description: A BlackBerry PIN
+      - in: path
+        name: pin
+      responses:
+        200:
+          description: OK
+      tags:
+      - Device
+      - Pins
+      - Pin
+  /device_tokens/{device_token}/tags:
+    get:
+      summary: Get Device Tokens Device Token Tags
+      description: Gets tags for a specific device token.
+      operationId: device_tokens.device_token.tags.get
+      x-api-path-slug: device-tokensdevice-tokentags-get
+      parameters:
+      - in: query
+        name: device_token
+        description: A specific device token
+      - in: path
+        name: device_token
+      responses:
+        200:
+          description: OK
+      tags:
+      - Device
+      - Tokens
+      - Device
+      - Token
+      - Tags
+  /device_tokens/{device_token}/tags/{tag}:
+    put:
+      summary: Put Device Tokens Device Token Tags Tag
+      description: Creates a tag and associate it with the specific device token.
+      operationId: device_tokens.device_token.tags.tag.put
+      x-api-path-slug: device-tokensdevice-tokentagstag-put
+      parameters:
+      - in: query
+        name: device_token
+        description: A specific device token
+      - in: path
+        name: device_token
+      - in: query
+        name: tag
+        description: Tags can be of any format you wish, but we recommend that they
+          be URL-safe in order to make less work for you
+      - in: path
+        name: tag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Device
+      - Tokens
+      - Device
+      - Token
+      - Tags
+      - Tag
+    delete:
+      summary: Delete Device Tokens Device Token Tags Tag
+      description: Removes a single tag from a device token.
+      operationId: device_tokens.device_token.tags.tag.delete
+      x-api-path-slug: device-tokensdevice-tokentagstag-delete
+      parameters:
+      - in: query
+        name: device_token
+        description: A specific device token
+      - in: path
+        name: device_token
+      - in: query
+        name: tag
+        description: Tags can be of any format you wish, but we recommend that they
+          be URL-safe in order to make less work for you
+      - in: path
+        name: tag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Device
+      - Tokens
+      - Device
+      - Token
+      - Tags
+      - Tag
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

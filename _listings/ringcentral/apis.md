@@ -12,11 +12,106 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-deve
 x-kinRank: "7"
 x-alexaRank: "7180"
 tags: Devices
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ringcentral/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: RingCentral Connect Platform API Explorer - Get Paging Only Group Devices
+  x-api-slug: restapiv1-0accountaccountidpagingonlygroupspagingonlygroupiddevices-get
+  description: "Returns the list of paging devices assigned to this group.\nApp Permission\nReadAccounts\nUser
+    Permission\nReadCompanyDevices\nUsage Plan Group\nLight\nError Codes\n\n \n  \n
+    \  HTTP Code\n   Error Code\n   Error Message\n   \n \n\n403\nCMN-401\nIn order
+    to call this API endpoint, application needs to have [ReadAccounts] permission"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ringcentral/restapiv1-0accountaccountidpagingonlygroupspagingonlygroupiddevices-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Edit Paging Group Users and Devices
+  x-api-slug: restapiv1-0accountaccountidpagingonlygroupspagingonlygroupidbulkassign-post
+  description: "Adds and/or removes paging group users and devices.\nApp Permission\nEditAccounts\nUser
+    Permission\nEditUserInfo\nUsage Plan Group\nHeavy\nError Codes\n\n \n  \n   HTTP
+    Code\n   Error Code\n   Error Message\n   \n \n\n400\nCMN-101\nParameter [addedDeviceIds]
+    value is invalid\n\n\n403\nCMN-401\nIn order to call this API endpoint, application
+    needs to have [EditAccounts] permission"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ringcentral/restapiv1-0accountaccountidpagingonlygroupspagingonlygroupidbulkassign-post-openapi.md
+- name: RingCentral Connect Platform API Explorer - Register SIP Device
+  x-api-slug: restapiv1-0clientinfosipprovision-post
+  description: "Creates SIP registration of a device/application (WebPhone, Mobile,
+    softphone)\nApp Permission\nVoipCalling\nUsage Plan Group\nHeavy\nError Codes\n\n
+    \n  \n   HTTP Code\n   Error Code\n   Error Message\n   \n \n\n400\nCMN-101\nParameter
+    [sipInfo.transport] value is invalid\n\n\n400\nSPR-114\nDevice id length [40]
+    is greater than allowed [38]\n\n\n400\nSPR-118\nParameter [device.id]=@1qwbc)yppa!
+    is not a number\n\n\n400\nSPR-129\nNot allowed to register with incompatible protocol
+    list [WS, TCP]\n\n\n400\nSPR-130\ndevice is not allowed for WebRTC.\n\n\n403\nBIL-103\nFeature
+    [WebPhone] is not available for current account\n\n\n403\nCMN-401\nIn order to
+    call this API endpoint, application needs to have [VoipCalling] permission\n\n\n403\nCMN-402\nAdministrator
+    permission required\n\n\n403\nSPR-112\nClient edition is not compatible with current
+    Brand\n\n\n403\nSPR-122\nApplication version is not set in \"User-Agent\" header
+    or not parseable"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ringcentral/restapiv1-0clientinfosipprovision-post-openapi.md
+- name: RingCentral Connect Platform API Explorer - Register SIP Device
+  x-api-slug: restapiv1-0clientinfosipprovision-post
+  description: "Creates SIP registration of a device/application (WebPhone, Mobile,
+    softphone)\nApp Permission\nVoipCalling\nUsage Plan Group\nHeavy\nError Codes\n\n
+    \n  \n   HTTP Code\n   Error Code\n   Error Message\n   \n \n\n400\nCMN-101\nParameter
+    [sipInfo.transport] value is invalid\n\n\n400\nSPR-114\nDevice id length [40]
+    is greater than allowed [38]\n\n\n400\nSPR-118\nParameter [device.id]=@1qwbc)yppa!
+    is not a number\n\n\n400\nSPR-129\nNot allowed to register with incompatible protocol
+    list [WS, TCP]\n\n\n400\nSPR-130\ndevice is not allowed for WebRTC.\n\n\n403\nBIL-103\nFeature
+    [WebPhone] is not available for current account\n\n\n403\nCMN-401\nIn order to
+    call this API endpoint, application needs to have [VoipCalling] permission\n\n\n403\nCMN-402\nAdministrator
+    permission required\n\n\n403\nSPR-112\nClient edition is not compatible with current
+    Brand\n\n\n403\nSPR-122\nApplication version is not set in \"User-Agent\" header
+    or not parseable"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ringcentral/restapiv1-0clientinfosipprovision-post-openapi.md
+- name: RingCentral Connect Platform API Explorer - Register SIP Device
+  x-api-slug: restapiv1-0clientinfosipprovision-post
+  description: "Creates SIP registration of a device/application (WebPhone, Mobile,
+    softphone)\nApp Permission\nVoipCalling\nUsage Plan Group\nHeavy\nError Codes\n\n
+    \n  \n   HTTP Code\n   Error Code\n   Error Message\n   \n \n\n400\nCMN-101\nParameter
+    [sipInfo.transport] value is invalid\n\n\n400\nSPR-114\nDevice id length [40]
+    is greater than allowed [38]\n\n\n400\nSPR-118\nParameter [device.id]=@1qwbc)yppa!
+    is not a number\n\n\n400\nSPR-129\nNot allowed to register with incompatible protocol
+    list [WS, TCP]\n\n\n400\nSPR-130\ndevice is not allowed for WebRTC.\n\n\n403\nBIL-103\nFeature
+    [WebPhone] is not available for current account\n\n\n403\nCMN-401\nIn order to
+    call this API endpoint, application needs to have [VoipCalling] permission\n\n\n403\nCMN-402\nAdministrator
+    permission required\n\n\n403\nSPR-112\nClient edition is not compatible with current
+    Brand\n\n\n403\nSPR-122\nApplication version is not set in \"User-Agent\" header
+    or not parseable"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ringcentral/restapiv1-0clientinfosipprovision-post-openapi.md
 x-common:
 - type: x-blog
   url: https://medium.com/ringcentral-developers

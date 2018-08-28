@@ -454,6 +454,109 @@ paths:
       - Device
       - Types
       - Mappings
+    post:
+      summary: |-
+        Create the draft property mappings for a logical interface for the
+        device type
+      description: |-
+        Creates the draft property mappings for an logical interface for the
+        device type.  The mapping object must specify:
+        - The id for for the logical interface that the mappings are for
+        - The mappings that define how to map from properties on the inbound
+          events to the properties on the logical interface.  The mappings
+          are keyed off of the event ids defined by the physical interface
+          associated with the device type.
+      operationId: creates-the-draft-property-mappings-for-an-logical-interface-for-thedevice-type--the-mapping-object-
+      x-api-path-slug: draftdevicetypestypeidmappings-post
+      parameters:
+      - in: body
+        name: Device Type Property Mappings
+        description: The JSON representation of the draft device type property mappings
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Internet of Things
+      - Draft
+      - Device
+      - Types
+      - Mappings
+  /draft/device/types/{typeId}/mappings/{logicalInterfaceId}:
+    get:
+      summary: |-
+        Get the draft property mappings for a specific logical interface for
+        a device type.
+      description: |-
+        Retrieves the draft property mappings for a specific logical
+        interface for the device type.
+      operationId: retrieves-the-draft-property-mappings-for-a-specific-logicalinterface-for-the-device-type
+      x-api-path-slug: draftdevicetypestypeidmappingslogicalinterfaceid-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Internet of Things
+      - Draft
+      - Device
+      - Types
+      - Mappings
+      - LogicalInterfaceId
+    put:
+      summary: |-
+        Update the draft property mappings for a specific logical interface
+        for the device type.
+      description: |-
+        Updates the draft property mappings for a specific logical interface
+        for the device type.
+      operationId: updates-the-draft-property-mappings-for-a-specific-logical-interfacefor-the-device-type
+      x-api-path-slug: draftdevicetypestypeidmappingslogicalinterfaceid-put
+      parameters:
+      - in: body
+        name: Device Type Property Mappings
+        description: The JSON representation of the draft device type property mappings
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Internet of Things
+      - Draft
+      - Device
+      - Types
+      - Mappings
+      - LogicalInterfaceId
+    delete:
+      summary: |-
+        Delete the draft property mappings for a specific logical interface
+        for the device type.
+      description: |-
+        Deletes the draft property mappings for a specific logical interface
+        for the device type.
+      operationId: deletes-the-draft-property-mappings-for-a-specific-logical-interfacefor-the-device-type
+      x-api-path-slug: draftdevicetypestypeidmappingslogicalinterfaceid-delete
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Internet of Things
+      - Draft
+      - Device
+      - Types
+      - Mappings
+      - LogicalInterfaceId
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

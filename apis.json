@@ -1,0 +1,812 @@
+{
+	"name": "Streadata.io API Gallery - Devices",
+	"description": "This is a repository of devices APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/devices.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://devices.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Urban Airship",
+			"x-api-slug": "urban-airship",
+			"description": "A market-leading mobile app engagement, mobile analytics, mobile data integration and mobile wallet marketing solution.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg",
+			"humanURL": "http://urbanairship.com/",
+			"baseURL": "https://go.urbanairship.com//api/",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NPR",
+			"x-api-slug": "npr",
+			"description": "NPR delivers breaking national and world news. Also top stories from business, politics, health, science, technology, music, arts and culture. Subscribe to podcasts and RSS feeds.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg",
+			"humanURL": "http://npr.org",
+			"baseURL": "https://api.npr.org//",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/npr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AT&T Dev Program",
+			"x-api-slug": "att-dev-program",
+			"description": "AT&T Official Site. Premium entertainment, the latest cell phones & tablets, unlimited data plans, and high-speed internet. Join the nations best network today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg",
+			"humanURL": "http://att.com",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/att-dev-program/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Box",
+			"x-api-slug": "box",
+			"description": "Box is changing how you manage content across your business from simple file sharing to building custom apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg",
+			"humanURL": "http://box.com",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/box/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dropbox",
+			"x-api-slug": "dropbox",
+			"description": "Dropbox is a modern workspace designed to reduce busywork-so you can focus on the things that matter. Sign in and put your creative energy to work.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg",
+			"humanURL": "http://dropbox.com",
+			"baseURL": "https://api-notify.dropbox.com//1",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/dropbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fitbit",
+			"x-api-slug": "fitbit",
+			"description": "Find your fit with Fitbits family of fitness products that help you stay motivated and improve your health by tracking your activity, exercise, food, weight and sleep.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit.jpg",
+			"humanURL": "http://fitbit.com",
+			"baseURL": "https://api.fitbit.com//1",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/fitbit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Handset Detection",
+			"x-api-slug": "handset-detection",
+			"description": "Handset Detection : Detect all the things",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/420-handset-detection.jpg",
+			"humanURL": "http://www.handsetdetection.com/",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/handset-detection/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xively",
+			"x-api-slug": "xively",
+			"description": "Simplify the creation, deployment, and management of connected products and solutions on the #IoT.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/451-xively.jpg",
+			"humanURL": "https://xively.com/",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/xively/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Server Density",
+			"x-api-slug": "server-density",
+			"description": "SaaS infrastructure monitoring. Dashboards, graphs and alerts to help you improve performance and maintain uptime. Organizer of @humanops",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg",
+			"humanURL": "https://www.serverdensity.com",
+			"baseURL": "://api.serverdensity.io./",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spreaker",
+			"x-api-slug": "spreaker",
+			"description": "Discover and listen to your favorite podcasts for free or sign up to create your own!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg",
+			"humanURL": "http://spreaker.com",
+			"baseURL": "http://api.spreaker.com//",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/spreaker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RunKeeper",
+			"x-api-slug": "runkeeper",
+			"description": "Join the community of over 45 million runners who make every run amazing with Runkeeper. Track your workouts and reach your fitness goals!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/916-runkeeper.jpg",
+			"humanURL": "http://runkeeper.com",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/runkeeper/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sensr.net",
+			"x-api-slug": "sensr-net",
+			"description": "Sensr.net keeps track of interesting images and alert you when something happens. Were starting off with basic motion detection. We keep the images around and organize them by time and day. Well send you an email or a text message if youd like when ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/924-sensr-net.jpg",
+			"humanURL": "https://sensr.net/api",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/sensr-net/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ThingSpeak",
+			"x-api-slug": "thingspeak",
+			"description": "ThingSpeak is the open IoT platform with MATLAB analytics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/952-thingspeak.jpg",
+			"humanURL": "https://thingspeak.com/",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/thingspeak/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DeviceAtlas",
+			"x-api-slug": "deviceatlas",
+			"description": "DeviceAtlas is the industry standard for device data available in real-time for all connected environments including Web, Mobile Operators and Mobile Apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1046-deviceatlas.jpg",
+			"humanURL": "https://deviceatlas.com/",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/deviceatlas/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PushBug",
+			"x-api-slug": "pushbug",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1270-pushbug.jpg",
+			"humanURL": "https://pushbug.com/learn-to-use-the-pushbug-notification-api",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/pushbug/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bugswarm",
+			"x-api-slug": "bugswarm",
+			"description": "Acquire data from and control embedded devices using JavaScript or plain old HTTP. Combine multiple resources together to create a swarm. Once a member of a swarm, a resource can communicate and share data with other resources in that swarm. Control the level of access a resource has to a swarm. Grant a resource permission to produce data, consume data, or do both. Invite another users resources into your swarms and accept invitations to place your resources in somebody elses swarms. Share your data easily and securely.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bugswarm-logo.png",
+			"humanURL": "http://developer.bugswarm.net/index.html",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/bugswarm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ninja Blocks",
+			"x-api-slug": "ninja-blocks",
+			"description": "Give your home a mind of its own.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1450-ninja-blocks.jpg",
+			"humanURL": "http://ninjablocks.com/docs/",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ninja-blocks/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cloud Elements",
+			"x-api-slug": "cloud-elements",
+			"description": "Cloud Elements is the leading API integration platform for SaaS app providers and the digital enterprise. Turn integration into your competitive advantage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9066-cloud-elements.jpg",
+			"humanURL": "http://www.cloud-elements.com/",
+			"baseURL": "://console.cloud-elements.com//elements/api-v2/hubs/crm",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/cloud-elements/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Adafruit Industries",
+			"x-api-slug": "adafruit-industries",
+			"description": "Adafruit was founded in 2005 by MIT hacker &amp; engineer, Limor Ladyada Fried. Her goal was to create the best place online for learning electronics and making the best designed products for makers of all ages and skill levels.",
+			"image": "",
+			"humanURL": "http://adafruit.com",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/adafruit-industries/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM Watson",
+			"x-api-slug": "ibm-watson",
+			"description": "Meet IBM Watson, a cognitive system that enables a new partnership between people and computers that enhances and scales human expertise. Watson has been learning the language of professions and is trained by experts to work across many different industries.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png",
+			"humanURL": "https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/",
+			"baseURL": "https://ibm-watson-ml.mybluemix.net/v3/",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ibm-watson/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VictorOps",
+			"x-api-slug": "victorops",
+			"description": "VictorOps incident managament software gives DevOps observability, collaboration, & real-time alerting, to build, deploy, & operate software. Learn more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg",
+			"humanURL": "http://victorops.com",
+			"baseURL": "https://api.victorops.com//",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/victorops/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"x-api-slug": "aws-storage-gateway-service",
+			"description": "The AWS Storage Gateway service seamlessly enables hybrid storage between on-premises storage environments andthe AWS Cloud. It combines a multi-protocol storage appliance with highly efficient network connectivity toAmazon cloud storageservices, delivering local performance with virtually unlimited scale. Customers use it in remote offices and datacenters for hybrid cloud workloads, backup and restore, archive, disaster recovery, and tiered storage.The Storage Gateway virtual appliance connects seamlessly to your local infrastructure as a file server, as a volume, or as a virtual tape library (VTL). This seamless connection makes it simple for organizations to augment existing on-premises storage investments with the high scalability, extreme durability and low cost of cloud storage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png",
+			"humanURL": "https://aws.amazon.com/storagegateway/",
+			"baseURL": ":///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-storage-gateway-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"x-api-slug": "aws-identity-and-access-management",
+			"description": "AWS Identity and Access Management (IAM) enables you to securely control access to AWS services and resources for your users. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.IAM is a feature of your AWS account offered at no additional charge. You will be charged only for use of other AWS services by your users.To get started using IAM, orif you have already registered with AWS, go to theAWS Management Consoleand get started with theseIAM Best Practices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png",
+			"humanURL": "https://aws.amazon.com/iam/",
+			"baseURL": ":///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-identity-and-access-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Cognito",
+			"x-api-slug": "aws-cognito",
+			"description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. With Amazon Cognito, you also have the options to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. In addition, Amazon Cognito enables you to save data locally on users devices, allowing your applications to work even when the devices are offline. You can then synchronize data across users devices so that their app experience remains consistent regardless of the device they use. With Amazon Cognito, you can focus on creating great app experiences instead of worrying about building, securing, and scaling a solution to handle user management, authentication, and sync across devices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png",
+			"humanURL": "https://aws.amazon.com/cognito/",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-cognito/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Device Farm",
+			"x-api-slug": "aws-device-farm",
+			"description": "AWS Device Farm is an app testing service that lets you test and interact with your Android, iOS, and web apps on many devices at once, or reproduce issues on a device in real time. View video, screenshots, logs, and performance data to pinpoint and fix issues before shipping your app.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png",
+			"humanURL": "https://aws.amazon.com/device-farm/",
+			"baseURL": ":///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Internet of Things",
+			"x-api-slug": "aws-internet-of-things",
+			"description": "AWS IoT is a managed cloud platform that lets connected devices easily and securely interact with cloud applications and other devices. AWS IoT can support billions of devices and trillions of messages, and can process and route those messages to AWS endpoints and to other devices reliably and securely. With AWS IoT, your applications can keep track of and communicate with all your devices, all the time, even when they aren&rsquo;t connected.AWS IoT makes it easy to use AWS services like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon Machine Learning, Amazon DynamoDB, Amazon CloudWatch, AWS CloudTrail, and Amazon Elasticsearch Service with built-in Kibana integration, to build IoT applications that gather, process, analyze and act on data generated by connected devices, without having to manage any infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png",
+			"humanURL": "https://aws.amazon.com/iot-platform/",
+			"baseURL": ":///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-internet-of-things/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Play",
+			"x-api-slug": "google-play",
+			"description": "The Google Play Developer API allows you to perform a number of publishing and app-management tasks. It includes two components: The Subscriptions and In-App Purchases API lets you manage in-app purchases and subscriptions. The Publishing API lets you upload and publish apps, and perform other publishing-related tasks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png",
+			"humanURL": "https://play.google.com/store",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/google-play/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Beacons",
+			"x-api-slug": "google-beacons",
+			"description": "Give your users better location and proximity experiences by providing a strong context signal for their devices in the form of Bluetooth low energy (BLE) beacons with Eddystone, the open beacon format from Google. The Google beacon platform enables you to manage your beacons remotely, integrate with Google services and help users devices to discover content and functionality across Android, native apps and the web.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg",
+			"humanURL": "https://developers.google.com/beacons/",
+			"baseURL": "://proximitybeacon.googleapis.com//",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/google-beacons/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Spectrum Database",
+			"x-api-slug": "google-spectrum-database",
+			"description": "The Google Spectrum Database API provides PAWS-compatible JSON-RPC methods that allow devices to query the database to find available TV-band spectrum at a given geolocation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spectrum-database-earth.jpg",
+			"humanURL": "https://www.google.com/get/spectrumdatabase/",
+			"baseURL": "://www.googleapis.com//spectrum/v1explorer/paws",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/google-spectrum-database/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure IoT Hub",
+			"x-api-slug": "azure-iot-hub",
+			"description": "Jumpstart your Internet of Things project with Microsoft IoT Hub. Connect, monitor, and control billions of IoT assets running on a broad set of operating systems and protocols. Establish reliable, bi-directional communication with these assets, even if they&rsquo;re intermittently connected, and analyze&mdash;and act on&mdash;incoming telemetry data. Enhance the security of your IoT solutions by using per-device authentication to communicate with devices that have the appropriate credentials. Revoke access rights to specific devices to maintain the integrity of your system.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-iot-01-establish.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/iot-hub/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-iot-hub/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Storage",
+			"x-api-slug": "azure-storage",
+			"description": "Azure Storage offers non-relational data storage including Blob Storage, Table Storage, Queue Storage, and Files.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/storage/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-storage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Actility",
+			"x-api-slug": "actility",
+			"description": "Actility is the leader in low power wide area (LoRaWAN and 3GPP) network connectivity management for the Internet of Things: the ThingPark platform",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg",
+			"humanURL": "https://www.actility.com",
+			"baseURL": "https://dx-api.thingpark.com//maker/v011/api",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/actility/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Netatmo",
+			"x-api-slug": "netatmo",
+			"description": "We develop groundbreaking, intuitive and beautifully-designed connected consumer electronics. Truly smart, our innovative products provide a seamless experience that helps users create a safer, healthier and more comfortable home. We carefully design the mechanics, electronics and embedded software of all our products to the highest standards. Our mobile and web applications are designed to be simple to operate, yet deliver a rich user experience.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/netatmo-logo.png",
+			"humanURL": "http://www.netatmo.com",
+			"baseURL": "https://api.netatmo.net//api",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/netatmo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clover",
+			"x-api-slug": "clover",
+			"description": "Clover, a First Data company, builds the largest open-architecture point of sale solution aimed at small &amp; medium sized business owners. Our products are changing the consumer/merchant experience for the better, opening avenues for seamless customer-merchant interactions. There are five versions of Clover, including the Clover Station, Clover Mobile, Clover Mini, Clover Go, and Clover Flex. With Clover, First Data is aiming to create the largest open architecture operating system for commerce-enabling solutions and applications for business owners.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png",
+			"humanURL": "https://www.clover.com",
+			"baseURL": "https:///merchants/https://api.clover.com",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/clover/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NxtPort",
+			"x-api-slug": "nxtport",
+			"description": "NxtPort opens the gates to the Port of the future. This project is a milestone in the digitalization of logistics and cargo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg",
+			"humanURL": "https://www.nxtport.eu",
+			"baseURL": "https://api-sb.nxtport.eu//PortCallPlus/v1",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/nxtport/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RingCentral",
+			"x-api-slug": "ringcentral",
+			"description": "RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise unified communications and collaboration solutions. More flexible and cost-effective than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and distributed workforces to be connected anywhere and on any device through voice, video, team messaging, collaboration, SMS, conferencing, online meetings, contact center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s leading business apps while giving customers the flexibility to customize their own workflows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg",
+			"humanURL": "http://www.ringcentral.com",
+			"baseURL": "https://platform.ringcentral.com//",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ringcentral/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Vinli",
+			"x-api-slug": "vinli",
+			"description": "Vinli - The easiest, most advanced connected-car system in the world. Vinli is a platform for easily and quickly building connected car apps. Apps get vehicle data through Vinli services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg",
+			"humanURL": "http://vinli.com",
+			"baseURL": "https://events.vin.li//api/v1",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/vinli/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Devices",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Devices",
+	"include": [
+		{
+			"name": "Urban Airship",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/urban-airship/apis.yaml"
+		},
+		{
+			"name": "NPR",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/npr/apis.yaml"
+		},
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "AT&T Dev Program",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/att-dev-program/apis.yaml"
+		},
+		{
+			"name": "Box",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/box/apis.yaml"
+		},
+		{
+			"name": "Dropbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/dropbox/apis.yaml"
+		},
+		{
+			"name": "Fitbit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/fitbit/apis.yaml"
+		},
+		{
+			"name": "Handset Detection",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/handset-detection/apis.yaml"
+		},
+		{
+			"name": "Xively",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/xively/apis.yaml"
+		},
+		{
+			"name": "Server Density",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/server-density/apis.yaml"
+		},
+		{
+			"name": "Spreaker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/spreaker/apis.yaml"
+		},
+		{
+			"name": "RunKeeper",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/runkeeper/apis.yaml"
+		},
+		{
+			"name": "Sensr.net",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/sensr-net/apis.yaml"
+		},
+		{
+			"name": "ThingSpeak",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/thingspeak/apis.yaml"
+		},
+		{
+			"name": "DeviceAtlas",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/deviceatlas/apis.yaml"
+		},
+		{
+			"name": "PushBug",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/pushbug/apis.yaml"
+		},
+		{
+			"name": "Bugswarm",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/bugswarm/apis.yaml"
+		},
+		{
+			"name": "Ninja Blocks",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ninja-blocks/apis.yaml"
+		},
+		{
+			"name": "Cloud Elements",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/cloud-elements/apis.yaml"
+		},
+		{
+			"name": "Adafruit Industries",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/adafruit-industries/apis.yaml"
+		},
+		{
+			"name": "IBM Watson",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ibm-watson/apis.yaml"
+		},
+		{
+			"name": "VictorOps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/victorops/apis.yaml"
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-storage-gateway-service/apis.yaml"
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-identity-and-access-management/apis.yaml"
+		},
+		{
+			"name": "AWS Cognito",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-cognito/apis.yaml"
+		},
+		{
+			"name": "AWS Device Farm",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-device-farm/apis.yaml"
+		},
+		{
+			"name": "AWS Internet of Things",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/aws-internet-of-things/apis.yaml"
+		},
+		{
+			"name": "Google Play",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/google-play/apis.yaml"
+		},
+		{
+			"name": "Google Beacons",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/google-beacons/apis.yaml"
+		},
+		{
+			"name": "Google Spectrum Database",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/google-spectrum-database/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Azure IoT Hub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-iot-hub/apis.yaml"
+		},
+		{
+			"name": "Azure Storage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/azure-storage/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Actility",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/actility/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Netatmo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/netatmo/apis.yaml"
+		},
+		{
+			"name": "Clover",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/clover/apis.yaml"
+		},
+		{
+			"name": "NxtPort",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/nxtport/apis.yaml"
+		},
+		{
+			"name": "RingCentral",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/ringcentral/apis.yaml"
+		},
+		{
+			"name": "Vinli",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/vinli/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/devices/master/_listings/gig--crowd/apis.yaml"
+		}
+	]
+}

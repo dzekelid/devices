@@ -192,6 +192,106 @@ paths:
       - Get
       - Single
       - Device
+  /devices/7eac0d62-854f-41c1-a5b2-ba13c460058a/report_cards/overall:
+    get:
+      summary: Lifetime Report Card for a Device
+      description: Lifetime report card for a device.
+      operationId: Devices7eac0d62854f41c1A5b2Ba13c460058aReportCardsOverallGet
+      x-api-path-slug: devices7eac0d62854f41c1a5b2ba13c460058areport-cardsoverall-get
+      parameters:
+      - in: header
+        name: Accept
+      responses:
+        200:
+          description: OK
+      tags:
+      - Lifetime
+      - Report
+      - Carda
+      - Device
+  /devices/62976d30-b6dc-40f1-8422-ccc367572101/rules:
+    post:
+      summary: Create a Rule for a Device
+      description: Create a rule for a device.
+      operationId: Devices62976d30B6dc40f18422Ccc367572101RulesPost
+      x-api-path-slug: devices62976d30b6dc40f18422ccc367572101rules-post
+      parameters:
+      - in: header
+        name: Accept
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: Content-Type
+      responses:
+        200:
+          description: OK
+      tags:
+      - Rulea
+      - Device
+  /devices/7eac0d62-854f-41c1-a5b2-ba13c460058a/report_cards:
+    get:
+      summary: Report Cards for a Device
+      description: Report cards for a device.
+      operationId: Devices7eac0d62854f41c1A5b2Ba13c460058aReportCardsGet
+      x-api-path-slug: devices7eac0d62854f41c1a5b2ba13c460058areport-cards-get
+      parameters:
+      - in: header
+        name: Accept
+      responses:
+        200:
+          description: OK
+      tags:
+      - Report
+      - Cardsa
+      - Device
+  /devices/cf217c2d-df3c-41f7-b610-8bc3e11b4b79/rules:
+    get:
+      summary: List all Rules for a Device
+      description: List all rules for a device.
+      operationId: DevicesCf217c2dDf3c41f7B6108bc3e11b4b79RulesGet
+      x-api-path-slug: devicescf217c2ddf3c41f7b6108bc3e11b4b79rules-get
+      parameters:
+      - in: header
+        name: Accept
+      responses:
+        200:
+          description: OK
+      tags:
+      - List
+      - ""
+      - Rulesa
+      - Device
+  /devices/821374c0-d6d8-11e3-9c1a-0800200c9a66:
+    delete:
+      summary: Deregister a Device
+      description: Deregister a device.
+      operationId: Devices821374c0D6d811e39c1a0800200c9a66Delete
+      x-api-path-slug: devices821374c0d6d811e39c1a0800200c9a66-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Deregister
+      - Device
+  /vehicles/9aa35c64-b046-43cc-9cd8-4c353a6d0b30/codes:
+    get:
+      summary: List all DTCs for a Device
+      description: List all dtcs for a device.
+      operationId: Vehicles9aa35c64B04643cc9cd84c353a6d0b30CodesGet
+      x-api-path-slug: vehicles9aa35c64b04643cc9cd84c353a6d0b30codes-get
+      parameters:
+      - in: header
+        name: Accept
+      responses:
+        200:
+          description: OK
+      tags:
+      - List
+      - ""
+      - DTCsa
+      - Device
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
